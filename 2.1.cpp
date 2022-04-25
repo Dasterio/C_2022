@@ -8,7 +8,7 @@ int main()
     {
         if (i % 3 == 0)
         {
-        cout<<i<<endl;
+        cout<<i<< '\n';
         }
     }
     return 0;
