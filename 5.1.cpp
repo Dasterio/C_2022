@@ -11,9 +11,9 @@ float SquaredSum(float a, float b,float result)
 int main ()
 {
     float c,d,result;
-    cout<<"Введите первое дробное число\n";
+    cout<<"Введите первую  дробь\n";
     cin>>c;
-    cout<<"Введите второе дробное число\n";
+    cout<<"Введите вторую дробь \n";
     cin>>d;
     cout<<"Результат - "<<SquaredSum(c,d,result)<<"\n";
 }
