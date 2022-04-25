@@ -6,13 +6,14 @@ using namespace std;
 int main()
 {
     int a=1, b, c;
-    ifstream r2d2("c3po");
+    ifstream GG("Dasti");
     while (1){
-    r2d2>>c;
+    GG>>c;
     cout<<a<<"."<<c<<"\n";
     a++;
-    if (r2d2.eof()) break;
+    if (GG.eof()) break;
     }
-    r2d2.close();    
+    GG.close();    
     return 0;
 }
+
